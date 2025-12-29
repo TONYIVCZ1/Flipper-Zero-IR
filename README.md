@@ -20,7 +20,7 @@ The project focuses on collecting all IR-controlled devices.
    /infrared/
    ```
 
-3. Safely eject the device and start experimenting.
+3. Safely eject the device and enjoying.
 
 ---
 
