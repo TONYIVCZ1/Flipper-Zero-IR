@@ -1,0 +1,51 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: /\
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: AA 55 00 00
+# 
+name: \/
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 66 99 00 00
+# 
+name: <
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: CC 33 00 00
+# 
+name: >
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 22 DD 00 00
+# 
+name: Vysat
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 44 BB 00 00
+# 
+name: Domu
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 11 EE 00 00
+# 
+name: Okolo
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 99 66 00 00
+# 
+name: Zavinac
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: EE 11 00 00
+
