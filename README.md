@@ -42,12 +42,6 @@ Feel free to:
 Just open a pull request or issue.
 
 ---
-## ⭐ Acknowledgements
-
-- Flipper Zero community  
-- Open-source contributors and researchers  
-
----
 
 ## How create your own IR controller: 
 
