@@ -49,4 +49,20 @@ Just open a pull request or issue.
 
 ---
 
-Happy hacking! 🐬📡
+## How create your own IR controller: 
+
+   - 1) Go to Infrared 
+   - 2) Select Learn New Remote
+   - 3) Point IR LED on your remote controller in black box in Flipper Zero and press any button
+   - 4) Press Save (Right)
+   - 5) Name button
+   - 6) Press +
+   - 7) Repeat 3-7 for all buttons on your controller
+
+   ![Infrared app](photo/infrared.png)
+   ![New remote](photo/new_remote.png)
+   ![Capture](photo/new.png)
+   ![How capture](photo/capture_remote.gif)
+   ![Info about capture](photo/button.png)
+   ![Name button](photo/rename.png)
+   ![All buttons](photo/remote.png)
