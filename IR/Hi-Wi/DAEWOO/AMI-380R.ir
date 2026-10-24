@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: I / O
 type: parsed
 protocol: NECext
 address: 87 6C 00 00
 command: 0A F5 00 00
 # 
-name: Funtion
+name: FUNCTION
 type: parsed
 protocol: NECext
 address: 87 6C 00 00
 command: 23 DC 00 00
 # 
-name: Volume +
+name: VOLUME +
 type: parsed
 protocol: NECext
 address: 87 6C 00 00
@@ -25,19 +25,19 @@ protocol: NECext
 address: 87 6C 00 00
 command: 1D E2 00 00
 # 
-name: Volume -
+name: VOLUME -
 type: parsed
 protocol: NECext
 address: 87 6C 00 00
 command: 1F E0 00 00
 # 
-name: << (|<< Tune)
+name: << (|<< TUNE)
 type: parsed
 protocol: NECext
 address: 87 6C 00 00
 command: 15 EA 00 00
 # 
-name: >> (>>| Tune)
+name: >> (>>| TUNE)
 type: parsed
 protocol: NECext
 address: 87 6C 00 00
@@ -49,13 +49,13 @@ protocol: NECext
 address: 87 6C 00 00
 command: 45 BA 00 00
 # 
-name: Stop
+name: STOP
 type: parsed
 protocol: NECext
 address: 87 6C 00 00
 command: 11 EE 00 00
 # 
-name: Play (>)
+name: PLAY (>)
 type: parsed
 protocol: NECext
 address: 87 6C 00 00
@@ -73,7 +73,7 @@ protocol: NECext
 address: 87 6C 00 00
 command: 13 EC 00 00
 # 
-name: Repeat (RDS MODE)
+name: REPEAT (RDS MODE)
 type: parsed
 protocol: NECext
 address: 87 6C 00 00
