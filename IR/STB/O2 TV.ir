@@ -7,37 +7,37 @@ protocol: RC5
 address: 04 00 00 00
 command: 0C 00 00 00
 # 
-name: Hlasitost +
+name: VOLUME +
 type: parsed
 protocol: RC5
 address: 04 00 00 00
 command: 14 00 00 00
 # 
-name: Ticho
+name: MUTE
 type: parsed
 protocol: RC5
 address: 04 00 00 00
 command: 0D 00 00 00
 # 
-name: Hlasitost -
+name: VOLUME -
 type: parsed
 protocol: RC5
 address: 04 00 00 00
 command: 17 00 00 00
 # 
-name: Kanal +
+name: CHANNEL +
 type: parsed
 protocol: RC5
 address: 04 00 00 00
 command: 0E 00 00 00
 # 
-name: Kanal -
+name: CHANNEL -
 type: parsed
 protocol: RC5
 address: 04 00 00 00
 command: 0A 00 00 00
 # 
-name: Menu
+name: MENU
 type: parsed
 protocol: RC5
 address: 04 00 00 00
@@ -73,7 +73,7 @@ protocol: RC5
 address: 04 00 00 00
 command: 24 00 00 00
 # 
-name: ZPET
+name: BACK
 type: parsed
 protocol: RC5
 address: 04 00 00 00
@@ -139,7 +139,7 @@ protocol: RC5
 address: 04 00 00 00
 command: 09 00 00 00
 # 
-name: Play/Pauza
+name: PLAY/PAUSE
 type: parsed
 protocol: RC5
 address: 04 00 00 00
@@ -163,37 +163,37 @@ protocol: RC5
 address: 04 00 00 00
 command: 36 00 00 00
 # 
-name: Nahrat
+name: RECORD
 type: parsed
 protocol: RC5
 address: 04 00 00 00
 command: 37 00 00 00
 # 
-name: Cervena
+name: RED
 type: parsed
 protocol: RC5X
 address: 04 00 00 00
 command: 2B 00 00 00
 # 
-name: Zluta
+name: YELLOW
 type: parsed
 protocol: RC5X
 address: 04 00 00 00
 command: 2D 00 00 00
 # 
-name: Zelena
+name: GREEN
 type: parsed
 protocol: RC5X
 address: 04 00 00 00
 command: 2C 00 00 00
 # 
-name: Modra
+name: BLUE
 type: parsed
 protocol: RC5X
 address: 04 00 00 00
 command: 2E 00 00 00
 # 
-name: Navod
+name: MANUAL
 type: parsed
 protocol: RC5X
 address: 04 00 00 00

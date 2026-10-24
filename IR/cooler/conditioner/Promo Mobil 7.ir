@@ -8,31 +8,31 @@ protocol: NEC
 address: 04 00 00 00
 command: 04 00 00 00
 # 
-name: Vetr Rych
+name: FAN SPEED
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 06 00 00 00
 # 
-name: Moznost
+name: FUNCTION
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 0D 00 00 00
 # 
-name: Casovac
+name: TIMER
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: Teplota +
+name: TEMP +
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 05 00 00 00
 # 
-name: Teplota -
+name: TEMP -
 type: parsed
 protocol: NEC
 address: 04 00 00 00

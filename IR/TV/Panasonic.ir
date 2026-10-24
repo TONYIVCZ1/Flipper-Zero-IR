@@ -7,37 +7,37 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 03 00 00
 # 
-name: Hlasitost +
+name: VOLUME +
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 00 02 00 00
 # 
-name: Ticho
+name: MUTE
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 20 03 00 00
 # 
-name: Hlasitost -
+name: VOLUME -
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 10 02 00 00
 # 
-name: Kanal +
+name: CHANNEL +
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 40 03 00 00
 # 
-name: Kanal -
+name: CHANNEL -
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 50 03 00 00
 # 
-name: Menu
+name: MENU
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
@@ -73,7 +73,7 @@ protocol: Kaseikyo
 address: 80 02 20 01
 command: 90 00 00 00
 # 
-name: Zpet
+name: BACK
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
@@ -139,67 +139,67 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 80 01 00 00
 # 
-name: Tv
+name: TV
 type: parsed
 protocol: Kaseikyo
 address: 82 02 20 00
 command: 00 03 00 00
 #
-name: Play
+name: PLAY
 type: parsed
 protocol: Kaseikyo
 address: 81 02 20 00
 command: 90 00 00 00
 # 
-name: Pauza
+name: PAUSE
 type: parsed
 protocol: Kaseikyo
 address: 81 02 20 00
 command: C0 00 00 00
 # 
-name: Stop
+name: STOP
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: 60 01 00 00
 #
-name: Pred
+name: <<
 type: parsed
 protocol: Kaseikyo
 address: 81 02 20 00
 command: 30 00 00 00
 # 
-name: Po
+name: >>
 type: parsed
 protocol: Kaseikyo
 address: 81 02 20 00
 command: 20 00 00 00
 # 
-name: Cerveny
+name: RED
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: 00 03 00 00
 # 
-name: Zluty
+name: YELLOW
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: 20 03 00 00
 # 
-name: Zeleny
+name: GREEN
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: 10 03 00 00
 # 
-name: Modry
+name: BLUE
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: 30 03 00 00
 #  
-name: Teletext
+name: TELETEXT
 type: parsed
 protocol: Kaseikyo
 address: 81 02 20 00
