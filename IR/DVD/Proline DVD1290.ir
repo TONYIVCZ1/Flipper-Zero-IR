@@ -7,31 +7,31 @@ protocol: NEC
 address: 00 00 00 00
 command: 47 00 00 00
 # 
-name: Otevrit/Zavrit
+name: OPEN/CLOSE
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 4B 00 00 00
 # 
-name: Hlasitost +
+name: VOLUME +
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 0D 00 00 00
 # 
-name: Ticho
+name: MUTE
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 53 00 00 00
 # 
-name: Hlasitost -
+name: VOLUME -
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 0E 00 00 00
 # 
-name: Menu
+name: MENU
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -67,13 +67,13 @@ protocol: NEC
 address: 00 00 00 00
 command: 15 00 00 00
 # 
-name: Zpet
+name: BACK
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 18 00 00 00
 #
-name: Play/Pauza
+name: PLAY/PAUSE
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -109,13 +109,13 @@ protocol: NEC
 address: 00 00 00 00
 command: 46 00 00 00
 # 
-name: Titulky
+name: SUBTITLE
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 52 00 00 00
 # 
-name: Zvuk
+name: SOUND
 type: parsed
 protocol: NEC
 address: 00 00 00 00

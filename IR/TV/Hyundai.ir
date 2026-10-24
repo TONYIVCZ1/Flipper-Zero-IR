@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Vypnout
+name: I / O
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: Menu
+name: MENU
 type: parsed
 protocol: RC5
 address: 01 00 00 00
