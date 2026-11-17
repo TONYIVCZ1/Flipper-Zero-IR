@@ -31,18 +31,6 @@ Use it responsibly and only with devices you own or have permission to test.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome!  
-Feel free to:
-- Add new IR files  
-- Improve documentation  
-- Submit fixes or enhancements  
-
-Just open a pull request or issue.
-
----
-
 ## How create your own IR controller: 
 
    - 1) Go to Infrared 
